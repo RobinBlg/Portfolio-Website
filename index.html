@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="font/font-awesome.min.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
@@ -48,7 +49,7 @@
                         <h1 class="text-danger text-uppercase fw-bold fs-1">Web Dseigner</h1>
                         <h2 class="text-capitalize fs-4">robin mia</h2>
                         <p class="mt-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat corrupti quod ad sequi dolores delectus ipsam perferendis. Rerum, iste laborum?</p>
-                        <a href="" class="btn btn-danger px-3 mt-3" >My Work</a>
+                        <a href="#Services" class="btn btn-danger px-3 mt-3" >My Work</a>
                     </div>
                 </div>
             </div>
@@ -253,7 +254,7 @@
      
 
      <!-- Testimonials section start here -->
-     <section class="my-5" id="Testimonials">
+     <section class=" testimonials my-5" id="Testimonials">
         <div class="container">
             <div class="row mb-5 justify-content-center">
                 <div class="col-md-12 mt-5">
@@ -263,7 +264,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-8 col-lg-7 ">
 
-                    <div id="carouselExampleIndicators" class="carousel slide">
+                    <div id="carouselExampleIndicators" class="carousel carousel-fade">
                         <div class="carousel-indicators">
                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-danger" aria-current="true" aria-label="Slide 1"></button>
                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bg-danger" aria-label="Slide 2"></button>
@@ -275,7 +276,7 @@
                                 <div class="d-flex align-items-center">
                                     <img src="img/testimonial/1.jpg" class="img-thumbnail rounded-circle" alt="">
                                     <div class="ms-3">
-                                        <h3 class="fs-6 mb-1">Abir Munshi</h3>
+                                        <h3 class="fs-6 mb-1">William</h3>
                                         <p class="m-0 text-muted">CEO Manager</p>
                                     </div>
                                 </div>
@@ -293,9 +294,9 @@
                             <!-- testi sectio two start here -->
                             <div class="bg-white carousel-item p-4 mb-5 shadow-sm rounded">
                                 <div class="d-flex align-items-center">
-                                    <img src="img/testimonial/1.jpg" class="img-thumbnail rounded-circle" alt="">
+                                    <img src="img/testimonial/2.jpg" class="img-thumbnail rounded-circle" alt="">
                                     <div class="ms-3">
-                                        <h3 class="fs-6 mb-1">Abir Munshi</h3>
+                                        <h3 class="fs-6 mb-1">Jennifer</h3>
                                         <p class="m-0 text-muted">CEO Manager</p>
                                     </div>
                                 </div>
@@ -313,9 +314,9 @@
                             <!-- testi sectio three start here -->
                             <div class="bg-white carousel-item p-4 mb-5 shadow-sm rounded">
                                 <div class="d-flex align-items-center">
-                                    <img src="img/testimonial/1.jpg" class="img-thumbnail rounded-circle" alt="">
+                                    <img src="img/testimonial/3.jpg" class="img-thumbnail rounded-circle" alt="">
                                     <div class="ms-3">
-                                        <h3 class="fs-6 mb-1">Abir Munshi</h3>
+                                        <h3 class="fs-6 mb-1">Christopher</h3>
                                         <p class="m-0 text-muted">CEO Manager</p>
                                     </div>
                                 </div>
@@ -340,16 +341,90 @@
 
 
      <!-- contact section start here -->
-     <section class="" id="Contact">
+     <section class="contact my-5" id="Contact">
         <div class="container">
             <div class="row mb-5 justify-content-center">
                 <div class="col-md-12 mt-5">
                     <h2 class="fw-bold text-center">Contact Me</h2>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="contact-item d-flex mb-3">
+                        <div class="icon fs-4 text-danger">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Email</h3>
+                            <p class="text-muted">example@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item d-flex mb-3">
+                        <div class="icon fs-4 text-danger">
+                            <i class="fa-solid fa-phone-flip"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Phone</h3>
+                            <p class="text-muted">(555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item d-flex ">
+                        <div class="icon fs-4 text-danger">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Visit Office</h3>
+                            <p class="text-muted">Dhaka-1206, Bangladesh</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <!-- contact form -->
+                    <div class="contact-form mt-5 mt-md-0">
+                        <form action="" class="">
+                            <div class="row ">
+                                <div class="col-md-6 mb-4 ">
+                                    <input type="text" placeholder="Your Name " class="form-control border-0 form-control-lg fs-6 shadow-sm">
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <input type="text" placeholder="Your Email" class="form-control border-0 form-control-lg fs-6 shadow-sm">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 mb-4">
+                                    <input type="text" placeholder="Subject" class="form-control border-0 form-control-lg fs-6 shadow-sm">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 mb-4">
+                                    <textarea name="" id="" rows="5" placeholder="Your Massage" class="form-control border-0 form-control-lg fs-6 shadow-sm"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <button type="button" class="btn btn-danger">Send Massage</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
      </section>
      <!-- contact section end here -->
+
+
+     <!-- footer section start here-->
+     <footer class="footer-section border-top py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="m-0 text-center text-muted">&copy; 2023 ROBIN</p>
+                </div>
+            </div>
+        </div>
+     </footer>
+     <!-- footer section end here-->
 
 
 
